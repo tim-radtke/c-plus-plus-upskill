@@ -1,0 +1,26 @@
+# Compiled artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+/helloworld.dSYM
+helloworld
+
+# CMake build output
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
+*~
