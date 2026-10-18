@@ -13,6 +13,11 @@
                 "-ggdb",
                 "-O0",
                 "-pedantic-errors",
+                "-Wall",
+                "-Weffc++",
+                "-Wextra",
+                "-Wconversion",
+                "-Wsign-conversion",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
